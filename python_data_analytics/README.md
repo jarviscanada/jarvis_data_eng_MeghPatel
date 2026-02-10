@@ -46,7 +46,7 @@ This separation ensures:
 ## Data Analytics and Wrangling
 
 Notebook:
-? **[retail_data_analytics_wrangling.ipynb](./python_data_wrangling/data/retail_data_analytics_wrangling.ipynb)**
+**[retail_data_analytics_wrangling.ipynb](./python_data_wrangling/retail_data_analytics_wrangling.ipynb)**
 
 The notebook includes:
 
