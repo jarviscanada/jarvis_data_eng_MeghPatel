@@ -38,7 +38,7 @@ This separation ensures:
 ## Architecture Diagram
 
 <p align="center">
-  <img src="./assets/py_architecture.png" alt="Python Data Analytics Architecture" width="850"/>
+  <img src="./python_data_wrangling/assets/py_architecture.PNG" alt="Python Data Analytics Architecture" width="850"/>
 </p>
 
 ---
@@ -46,7 +46,7 @@ This separation ensures:
 ## Data Analytics and Wrangling
 
 Notebook:
-? **[retail_data_analytics_wrangling.ipynb](./retail_data_analytics_wrangling.ipynb)**
+? **[retail_data_analytics_wrangling.ipynb](./python_data_wrangling/data/retail_data_analytics_wrangling.ipynb)**
 
 The notebook includes:
 
