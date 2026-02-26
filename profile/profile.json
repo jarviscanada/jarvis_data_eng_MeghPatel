@@ -2,7 +2,7 @@
   "education": [
     {
       "awards_achievements": [
-        "CGPA: 9+ / 10 equivalent academic performance"
+        "CGPA: 9+ / 10"
       ],
       "degree": "Master of Applied Computing",
       "department": "Computer Science",
@@ -65,15 +65,6 @@
         "Microsoft Certified: Microsoft Fabric Analytics Engineer Associate (DP-600)"
       ],
       "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Cloud architecture",
-        "Data engineering",
-        "Open-source contributions",
-        "Building AI-powered applications"
-      ],
-      "title": "Interests"
     }
   ],
   "professional_experience": [

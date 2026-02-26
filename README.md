@@ -48,7 +48,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel]
 
 ## Education
 **University of Windsor (2023-2024)**, Master of Applied Computing, Computer Science
-- CGPA: 9+ / 10 equivalent academic performance
+- CGPA: 9+ / 10
 
 **Navrachana University (2018-2022)**, Bachelor of Information Technology, Information Technology
 - CGPA: 9+ / 10
@@ -65,7 +65,3 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel]
 - Microsoft Certified: Azure DevOps Engineer Expert (AZ-400)
 - Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
 - Microsoft Certified: Microsoft Fabric Analytics Engineer Associate (DP-600)
-- Cloud architecture
-- Data engineering
-- Open-source contributions
-- Building AI-powered applications
