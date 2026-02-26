@@ -83,7 +83,7 @@ professional_experience:
 
   - title: "Data Engineer"
     company: "Jarvis Consulting Group"
-    duration: "Jan 2024 ? Present"
+    duration: "Jan 2024-Present"
     description: >
       Developed multiple production-grade data engineering projects including Linux monitoring systems,
       relational database solutions, and Python analytics pipelines. Implemented Bash automation,
@@ -93,7 +93,7 @@ professional_experience:
 
   - title: "Data Management Analyst"
     company: "Agriculture and Agri-Food Canada"
-    duration: "Mar 2024 ? Dec 2024"
+    duration: "Mar 2024-Dec 2024"
     description: >
       Optimized centralized enterprise data platforms using Microsoft Fabric and Synapse Analytics,
       reducing data retrieval time by 30%. Designed ETL pipelines with Informatica and delivered
@@ -102,7 +102,7 @@ professional_experience:
 
   - title: "Full Stack Developer"
     company: "Dhyey Consulting Services Pvt. Ltd."
-    duration: "Jan 2022 ? Dec 2022"
+    duration: "Jan 2022-Dec 2022"
     description: >
       Architected microservices-based applications using ASP.NET, Angular, and Kubernetes while deploying
       cloud infrastructure on Azure. Automated provisioning with Terraform, cutting manual setup time by 40%,
