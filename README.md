@@ -36,7 +36,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel]
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis Consulting Group (Jan 2024-Present)**: Developed multiple production-grade data engineering projects including Linux monitoring systems, relational database solutions, and Python analytics pipelines. Implemented Bash automation, PostgreSQL databases, Docker containers, and CI/CD workflows to design reproducible and scalable environments. Collaborated in Agile sprints, applied Git best practices, and delivered analytical solutions that simulated real-world enterprise data engineering scenarios.
+**Data Engineer, Jarvis Consulting Group (Jan 2026-Present)**: Developed multiple production-grade data engineering projects including Linux monitoring systems, relational database solutions, and Python analytics pipelines. Implemented Bash automation, PostgreSQL databases, Docker containers, and CI/CD workflows to design reproducible and scalable environments. Collaborated in Agile sprints, applied Git best practices, and delivered analytical solutions that simulated real-world enterprise data engineering scenarios.
 
 
 **Data Management Analyst, Agriculture and Agri-Food Canada (Mar 2024-Dec 2024)**: Optimized centralized enterprise data platforms using Microsoft Fabric and Synapse Analytics, reducing data retrieval time by 30%. Designed ETL pipelines with Informatica and delivered Power BI dashboards that accelerated executive decision-making by 25%. Strengthened data quality, governance, and accessibility for 1,000+ stakeholders through automation and performance tuning.
