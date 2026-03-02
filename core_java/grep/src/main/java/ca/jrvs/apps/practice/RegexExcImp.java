@@ -1,8 +1,8 @@
-package main.java.ca.jrvs.apps.practice;
+package ca.jrvs.apps.practice;
 
 import java.util.regex.Pattern;
 
-public class RegexExcImp implements RegexExc {
+public class RegexExcImp implements RegexExc{
 
     // Compile once (performance best practice)
     private static final Pattern JPEG_PATTERN =
