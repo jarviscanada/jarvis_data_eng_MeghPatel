@@ -1,7 +1,7 @@
-package test.java.ca.jrvs.apps.grep;
+package ca.jrvs.apps.grep;
 
-import main.java.ca.jrvs.apps.practice.RegexExc;
-import main.java.ca.jrvs.apps.practice.RegexExcImp;
+import ca.jrvs.apps.practice.RegexExc;
+import ca.jrvs.apps.practice.RegexExcImp;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
