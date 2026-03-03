@@ -66,7 +66,7 @@ highlighted_projects:
       workforce insights. Performed data cleaning, transformation, and statistical analysis to uncover
       actionable findings and presented results through charts and reports to support evidence-based
       decision-making. Demonstrates strong analytical thinking, storytelling with data, and business-focused insights.
-      
+
   - name: "AI Shopping Assistant (Agentic RAG Chatbot)"
     git_url: "https://github.com/Megh05/Karji-Agentic-RAG"
     description: >
@@ -86,7 +86,7 @@ professional_experience:
 
   - title: "Data Engineer"
     company: "Jarvis Consulting Group"
-    duration: "Jan 2026-Present"
+    duration: "Jan 2026 ? Present"
     description: >
       Developed multiple production-grade data engineering projects including Linux monitoring systems,
       relational database solutions, and Python analytics pipelines. Implemented Bash automation,
@@ -96,7 +96,7 @@ professional_experience:
 
   - title: "Data Management Analyst"
     company: "Agriculture and Agri-Food Canada"
-    duration: "Mar 2024-Dec 2024"
+    duration: "Mar 2024 ? Dec 2024"
     description: >
       Optimized centralized enterprise data platforms using Microsoft Fabric and Synapse Analytics,
       reducing data retrieval time by 30%. Designed ETL pipelines with Informatica and delivered
@@ -105,12 +105,20 @@ professional_experience:
 
   - title: "Full Stack Developer"
     company: "Dhyey Consulting Services Pvt. Ltd."
-    duration: "Jan 2022-Dec 2022"
+    duration: "Jan 2022 ? Dec 2022"
     description: >
       Architected microservices-based applications using ASP.NET, Angular, and Kubernetes while deploying
       cloud infrastructure on Azure. Automated provisioning with Terraform, cutting manual setup time by 40%,
       and established CI/CD pipelines with GitHub Actions and Azure DevOps to ensure secure, rapid releases.
 
+  - title: "Data Analyst"
+    company: "BIBirbal"
+    duration: "Jul 2021 ? Sep 2021"
+    description: >
+      Performed exploratory data analysis and statistical modeling on business datasets to identify trends
+      and predictive insights. Applied supervised learning and machine learning techniques to build
+      forecasting models and improve decision-making. Cleaned and transformed raw data using Python,
+      conducted hypothesis testing, and presented findings through visualizations and reports to stakeholders.
 
 education:
   - school_name: "University of Windsor"
@@ -118,7 +126,7 @@ education:
     degree: "Master of Applied Computing"
     department: "Computer Science"
     awards_achievements:
-      - "CGPA: 9+ / 10 equivalent academic performance"
+      - "CGPA: 9+ / 10"
 
   - school_name: "Navrachana University"
     duration: "2018-2022"
@@ -141,11 +149,4 @@ others:
       - "Microsoft Certified: Azure DevOps Engineer Expert (AZ-400)"
       - "Microsoft Certified: Azure Solutions Architect Expert (AZ-305)"
       - "Microsoft Certified: Microsoft Fabric Analytics Engineer Associate (DP-600)"
-
-  - title: "Interests"
-    bullets:
-      - "Cloud architecture"
-      - "Data engineering"
-      - "Open-source contributions"
-      - "Building AI-powered applications"
 
