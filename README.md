@@ -1,6 +1,6 @@
 # Megh Patel . Jarvis Consulting
 
-Detail-oriented Data Analyst with strong experience transforming complex datasets into actionable business insights. Skilled in SQL, Python, and analytics platforms to design ETL workflows, build dashboards, and deliver KPI-driven reporting that supports strategic decision-making. Experienced working with cloud-based data environments and automation to improve data quality, efficiency, and reporting accuracy. Passionate about solving real-world business problems through data analysis, process optimization, and evidence-based insights.
+Detail-oriented Analyst skilled in SQL, Python, and analytics platforms to build ETL workflows, dashboards, and KPI reporting. Experienced in cloud environments and automation to improve data quality, efficiency, and reporting accuracy.
 
 
 ## Skills
@@ -39,7 +39,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis Consulting Group (Jan 2026-Present)**: Developed multiple production-grade data engineering projects including Linux monitoring systems, relational database solutions, and Python analytics pipelines. Implemented Bash automation, PostgreSQL databases, Docker containers, and CI/CD workflows to design reproducible and scalable environments. Collaborated in Agile sprints, applied Git best practices, and delivered analytical solutions that simulated real-world enterprise data engineering scenarios.
+**Data Analyst & Engineer, Jarvis Consulting Group (Jan 2026-Present)**: Designed and delivered analytics-focused solutions, including monitoring dashboards, relational reporting, and Python data pipelines. Built ETL workflows, automated data collection, and wrote SQL to produce performance metrics and operational insights. Managed and prioritized tickets in Agile teams, translating requirements into data-driven deliverables that improved reporting accuracy and visibility.
 
 
 **Data Management Analyst, Agriculture and Agri-Food Canada (Mar 2024-Dec 2024)**: Optimized centralized enterprise data platforms using Microsoft Fabric and Synapse Analytics, reducing data retrieval time by 30%. Designed ETL pipelines with Informatica and delivered Power BI dashboards that accelerated executive decision-making by 25%. Strengthened data quality, governance, and accessibility for 1,000+ stakeholders through automation and performance tuning.
@@ -48,7 +48,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.
 **Full Stack Developer, Dhyey Consulting Services Pvt. Ltd. (Jan 2022-Dec 2022)**: Architected microservices-based applications using ASP.NET, Angular, and Kubernetes while deploying cloud infrastructure on Azure. Automated provisioning with Terraform, cutting manual setup time by 40%, and established CI/CD pipelines with GitHub Actions and Azure DevOps to ensure secure, rapid releases.
 
 
-**Data Analyst, BIBirbal (Jul 2021-Sep 2021)**: Performed exploratory data analysis and statistical modeling on business datasets to identify trends and predictive insights. Applied supervised learning and machine learning techniques to build forecasting models and improve decision-making. Cleaned and transformed raw data using Python, conducted hypothesis testing, and presented findings through visualizations and reports to stakeholders.
+**Data Analyst, BIBirbal (Jul 2021 ? Sep 2021)**: Performed exploratory data analysis and statistical modeling on business datasets to identify trends and predictive insights. Applied supervised learning and machine learning techniques to build forecasting models and improve decision-making. Cleaned and transformed raw data using Python, conducted hypothesis testing, and presented findings through visualizations and reports to stakeholders.
 
 
 
