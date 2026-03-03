@@ -2,7 +2,7 @@
   "education": [
     {
       "awards_achievements": [
-        "CGPA: 9+ / 10"
+        "CGPA: 9+ / 10 equivalent academic performance"
       ],
       "degree": "Master of Applied Computing",
       "department": "Computer Science",
@@ -19,8 +19,13 @@
       "school_name": "Navrachana University"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MeghPatel",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git",
   "highlighted_projects": [
+    {
+      "description": "Conducted exploratory data analysis on Canadian labour market datasets using Python, Pandas, and visualization libraries to identify employment trends, sector growth patterns, and regional workforce insights. Performed data cleaning, transformation, and statistical analysis to uncover actionable findings and presented results through charts and reports to support evidence-based decision-making. Demonstrates strong analytical thinking, storytelling with data, and business-focused insights.\n",
+      "git_url": "https://github.com/Megh05/Labour-Market-Trends",
+      "name": "Labour Market Trends Analysis"
+    },
     {
       "description": "Engineered an intelligent recommendation chatbot using Retrieval-Augmented Generation (RAG), embeddings, and vector search to deliver personalized product suggestions. Integrated semantic search with a real-time UI to improve discovery, upselling, and customer engagement.\n",
       "git_url": "https://github.com/Megh05/Karji-Agentic-RAG",
@@ -35,17 +40,17 @@
   "jarvis_projects": [
     {
       "description": "Designed and implemented a lightweight monitoring system for a CentOS/Rocky Linux cluster using Bash scripts and crontab to collect hardware specifications and real-time CPU/memory metrics. Stored usage data in PostgreSQL running inside Docker and developed SQL analytics queries for capacity planning and performance reporting. Automated scheduling and deployment to ensure reliable, low-overhead monitoring across environments.\n",
-      "git_url": "/linux_sql",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
     },
     {
       "description": "Built a normalized relational database for a recreational club booking system using PostgreSQL. Created schemas, constraints, and relationships with DDL and developed advanced SQL queries using joins, aggregations, and window functions to produce operational insights. Containerized the environment with Docker and automated setup using Bash for portability and reproducibility.\n",
-      "git_url": "/sql",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/sql",
       "name": "PostgreSQL Club Booking Database System"
     },
     {
       "description": "Developed an end-to-end retail analytics workflow using Python, Pandas, and Jupyter Notebook for data cleaning, transformation, and visualization. Generated customer segmentation and revenue insights to support marketing strategies and business optimization through reusable notebooks and automated analysis.\n",
-      "git_url": "/python_data_analytics",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/python_data_analytics",
       "name": "Python Data Analytics"
     }
   ],
@@ -65,6 +70,15 @@
         "Microsoft Certified: Microsoft Fabric Analytics Engineer Associate (DP-600)"
       ],
       "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Cloud architecture",
+        "Data engineering",
+        "Open-source contributions",
+        "Building AI-powered applications"
+      ],
+      "title": "Interests"
     }
   ],
   "professional_experience": [
@@ -110,5 +124,5 @@
       "ETL/Data Pipelines"
     ]
   },
-  "summary": "Detail-oriented Data and Cloud Engineer with hands-on experience designing scalable data platforms, building ETL pipelines, and delivering analytics solutions across Azure and open-source ecosystems. Experienced with Python, SQL, Docker, Linux, and distributed data technologies to transform raw data into actionable insights. Passionate about solving real-world business problems through automation, cloud architecture, and data engineering best practices. A 10x Microsoft Azure-certified professional seeking Data Engineer and Cloud Engineering roles where I can design reliable, high-performance systems that enable data-driven decision-making.\n"
+  "summary": "Detail-oriented Data Analyst with strong experience transforming complex datasets into actionable business insights. Skilled in SQL, Python, and analytics platforms to design ETL workflows, build dashboards, and deliver KPI-driven reporting that supports strategic decision-making. Experienced working with cloud-based data environments and automation to improve data quality, efficiency, and reporting accuracy. Passionate about solving real-world business problems through data analysis, process optimization, and evidence-based insights.\n"
 }

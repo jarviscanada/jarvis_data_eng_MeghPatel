@@ -1,6 +1,6 @@
 # Megh Patel . Jarvis Consulting
 
-Detail-oriented Data and Cloud Engineer with hands-on experience designing scalable data platforms, building ETL pipelines, and delivering analytics solutions across Azure and open-source ecosystems. Experienced with Python, SQL, Docker, Linux, and distributed data technologies to transform raw data into actionable insights. Passionate about solving real-world business problems through automation, cloud architecture, and data engineering best practices. A 10x Microsoft Azure-certified professional seeking Data Engineer and Cloud Engineering roles where I can design reliable, high-performance systems that enable data-driven decision-making.
+Detail-oriented Data Analyst with strong experience transforming complex datasets into actionable business insights. Skilled in SQL, Python, and analytics platforms to design ETL workflows, build dashboards, and deliver KPI-driven reporting that supports strategic decision-making. Experienced working with cloud-based data environments and automation to improve data quality, efficiency, and reporting accuracy. Passionate about solving real-world business problems through data analysis, process optimization, and evidence-based insights.
 
 
 ## Skills
@@ -13,20 +13,23 @@ Detail-oriented Data and Cloud Engineer with hands-on experience designing scala
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/master/linux_sql)]: Designed and implemented a lightweight monitoring system for a CentOS/Rocky Linux cluster using Bash scripts and crontab to collect hardware specifications and real-time CPU/memory metrics. Stored usage data in PostgreSQL running inside Docker and developed SQL analytics queries for capacity planning and performance reporting. Automated scheduling and deployment to ensure reliable, low-overhead monitoring across environments.
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/linux_sql)]: Designed and implemented a lightweight monitoring system for a CentOS/Rocky Linux cluster using Bash scripts and crontab to collect hardware specifications and real-time CPU/memory metrics. Stored usage data in PostgreSQL running inside Docker and developed SQL analytics queries for capacity planning and performance reporting. Automated scheduling and deployment to ensure reliable, low-overhead monitoring across environments.
 
 
-**PostgreSQL Club Booking Database System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/master/sql)]: Built a normalized relational database for a recreational club booking system using PostgreSQL. Created schemas, constraints, and relationships with DDL and developed advanced SQL queries using joins, aggregations, and window functions to produce operational insights. Containerized the environment with Docker and automated setup using Bash for portability and reproducibility.
+**PostgreSQL Club Booking Database System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/sql)]: Built a normalized relational database for a recreational club booking system using PostgreSQL. Created schemas, constraints, and relationships with DDL and developed advanced SQL queries using joins, aggregations, and window functions to produce operational insights. Containerized the environment with Docker and automated setup using Bash for portability and reproducibility.
 
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/master/python_data_analytics)]: Developed an end-to-end retail analytics workflow using Python, Pandas, and Jupyter Notebook for data cleaning, transformation, and visualization. Generated customer segmentation and revenue insights to support marketing strategies and business optimization through reusable notebooks and automated analysis.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/python_data_analytics)]: Developed an end-to-end retail analytics workflow using Python, Pandas, and Jupyter Notebook for data cleaning, transformation, and visualization. Generated customer segmentation and revenue insights to support marketing strategies and business optimization through reusable notebooks and automated analysis.
 
 
 
 ## Highlighted Projects
+**Labour Market Trends Analysis** [[GitHub](https://github.com/Megh05/Labour-Market-Trends)]: Conducted exploratory data analysis on Canadian labour market datasets using Python, Pandas, and visualization libraries to identify employment trends, sector growth patterns, and regional workforce insights. Performed data cleaning, transformation, and statistical analysis to uncover actionable findings and presented results through charts and reports to support evidence-based decision-making. Demonstrates strong analytical thinking, storytelling with data, and business-focused insights.
+
+
 **AI Shopping Assistant (Agentic RAG Chatbot)** [[GitHub](https://github.com/Megh05/Karji-Agentic-RAG)]: Engineered an intelligent recommendation chatbot using Retrieval-Augmented Generation (RAG), embeddings, and vector search to deliver personalized product suggestions. Integrated semantic search with a real-time UI to improve discovery, upselling, and customer engagement.
 
 
@@ -48,7 +51,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel]
 
 ## Education
 **University of Windsor (2023-2024)**, Master of Applied Computing, Computer Science
-- CGPA: 9+ / 10
+- CGPA: 9+ / 10 equivalent academic performance
 
 **Navrachana University (2018-2022)**, Bachelor of Information Technology, Information Technology
 - CGPA: 9+ / 10
@@ -65,3 +68,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel]
 - Microsoft Certified: Azure DevOps Engineer Expert (AZ-400)
 - Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
 - Microsoft Certified: Microsoft Fabric Analytics Engineer Associate (DP-600)
+- Cloud architecture
+- Data engineering
+- Open-source contributions
+- Building AI-powered applications
