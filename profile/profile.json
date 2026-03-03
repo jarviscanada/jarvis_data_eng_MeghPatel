@@ -19,7 +19,7 @@
       "school_name": "Navrachana University"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MeghPatel",
   "highlighted_projects": [
     {
       "description": "Conducted exploratory data analysis on Canadian labour market datasets using Python, Pandas, and visualization libraries to identify employment trends, sector growth patterns, and regional workforce insights. Performed data cleaning, transformation, and statistical analysis to uncover actionable findings and presented results through charts and reports to support evidence-based decision-making. Demonstrates strong analytical thinking, storytelling with data, and business-focused insights.\n",
@@ -94,7 +94,7 @@
     {
       "company": "BIBirbal",
       "description": "Performed exploratory data analysis and statistical modeling on business datasets to identify trends and predictive insights. Applied supervised learning and machine learning techniques to build forecasting models and improve decision-making. Cleaned and transformed raw data using Python, conducted hypothesis testing, and presented findings through visualizations and reports to stakeholders.\n",
-      "duration": "Jul 2021 ? Sep 2021",
+      "duration": "Jul 2021-Sep 2021",
       "title": "Data Analyst"
     }
   ],

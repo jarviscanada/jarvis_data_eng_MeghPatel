@@ -2,7 +2,7 @@
 name: "Megh Patel"
 
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MeghPatel
 
 summary: >
   Detail-oriented Analyst skilled in SQL, Python, and analytics platforms to build ETL workflows, dashboards, and KPI reporting. Experienced in cloud environments and automation to improve data quality, efficiency, and reporting accuracy.
@@ -109,7 +109,7 @@ professional_experience:
 
   - title: "Data Analyst"
     company: "BIBirbal"
-    duration: "Jul 2021 ? Sep 2021"
+    duration: "Jul 2021-Sep 2021"
     description: >
       Performed exploratory data analysis and statistical modeling on business datasets to identify trends
       and predictive insights. Applied supervised learning and machine learning techniques to build
@@ -145,4 +145,5 @@ others:
       - "Microsoft Certified: Azure DevOps Engineer Expert (AZ-400)"
       - "Microsoft Certified: Azure Solutions Architect Expert (AZ-305)"
       - "Microsoft Certified: Microsoft Fabric Analytics Engineer Associate (DP-600)"
+
 

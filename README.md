@@ -13,16 +13,16 @@ Detail-oriented Analyst skilled in SQL, Python, and analytics platforms to build
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/linux_sql)]: Designed and implemented a lightweight monitoring system for a CentOS/Rocky Linux cluster using Bash scripts and crontab to collect hardware specifications and real-time CPU/memory metrics. Stored usage data in PostgreSQL running inside Docker and developed SQL analytics queries for capacity planning and performance reporting. Automated scheduling and deployment to ensure reliable, low-overhead monitoring across environments.
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/linux_sql)]: Designed and implemented a lightweight monitoring system for a CentOS/Rocky Linux cluster using Bash scripts and crontab to collect hardware specifications and real-time CPU/memory metrics. Stored usage data in PostgreSQL running inside Docker and developed SQL analytics queries for capacity planning and performance reporting. Automated scheduling and deployment to ensure reliable, low-overhead monitoring across environments.
 
 
-**PostgreSQL Club Booking Database System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/sql)]: Built a normalized relational database for a recreational club booking system using PostgreSQL. Created schemas, constraints, and relationships with DDL and developed advanced SQL queries using joins, aggregations, and window functions to produce operational insights. Containerized the environment with Docker and automated setup using Bash for portability and reproducibility.
+**PostgreSQL Club Booking Database System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/sql)]: Built a normalized relational database for a recreational club booking system using PostgreSQL. Created schemas, constraints, and relationships with DDL and developed advanced SQL queries using joins, aggregations, and window functions to produce operational insights. Containerized the environment with Docker and automated setup using Bash for portability and reproducibility.
 
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.git/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/python_data_analytics)]: Developed an end-to-end retail analytics workflow using Python, Pandas, and Jupyter Notebook for data cleaning, transformation, and visualization. Generated customer segmentation and revenue insights to support marketing strategies and business optimization through reusable notebooks and automated analysis.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/main/python_data_analytics)]: Developed an end-to-end retail analytics workflow using Python, Pandas, and Jupyter Notebook for data cleaning, transformation, and visualization. Generated customer segmentation and revenue insights to support marketing strategies and business optimization through reusable notebooks and automated analysis.
 
 
 
@@ -48,7 +48,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel.
 **Full Stack Developer, Dhyey Consulting Services Pvt. Ltd. (Jan 2022-Dec 2022)**: Architected microservices-based applications using ASP.NET, Angular, and Kubernetes while deploying cloud infrastructure on Azure. Automated provisioning with Terraform, cutting manual setup time by 40%, and established CI/CD pipelines with GitHub Actions and Azure DevOps to ensure secure, rapid releases.
 
 
-**Data Analyst, BIBirbal (Jul 2021 ? Sep 2021)**: Performed exploratory data analysis and statistical modeling on business datasets to identify trends and predictive insights. Applied supervised learning and machine learning techniques to build forecasting models and improve decision-making. Cleaned and transformed raw data using Python, conducted hypothesis testing, and presented findings through visualizations and reports to stakeholders.
+**Data Analyst, BIBirbal (Jul 2021-Sep 2021)**: Performed exploratory data analysis and statistical modeling on business datasets to identify trends and predictive insights. Applied supervised learning and machine learning techniques to build forecasting models and improve decision-making. Cleaned and transformed raw data using Python, conducted hypothesis testing, and presented findings through visualizations and reports to stakeholders.
 
 
 
