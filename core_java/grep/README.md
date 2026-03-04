@@ -1,6 +1,6 @@
-# ? Java Grep Application
+# Java Grep Application
 
-## ? Introduction
+## Introduction
 
 This project implements a lightweight, memory-efficient file search application similar to Linux **grep**, built using **Core Java** and modern **Java 8+ Stream APIs**.  
 The app recursively scans directories, reads files lazily, filters lines using regex patterns, and writes matched results to an output file.
@@ -10,9 +10,9 @@ Technologies used include Java Streams & Lambdas, SLF4J logging, Maven for build
 
 ---
 
-# ? Quick Start
+# Quick Start
 
-## 1?? Build the project
+## 1 Build the project
 
 ```bash
 mvn clean package
@@ -26,7 +26,7 @@ target/grep-1.0-SNAPSHOT.jar
 
 ---
 
-## 2?? Run locally
+## 2 Run locally
 
 ```bash
 java -jar target/grep-1.0-SNAPSHOT.jar "<regex>" "<rootDir>" "<outputFile>"
@@ -40,7 +40,7 @@ java -jar target/grep-1.0-SNAPSHOT.jar ".*Romeo.*Juliet.*" ./data ./out/grep.txt
 
 ---
 
-## 3?? Run using Docker
+## 3 Run using Docker
 
 ```bash
 docker run --rm \
@@ -51,9 +51,9 @@ docker run --rm \
 
 ---
 
-# ? Implementation
+# Implementation
 
-## ? Design Overview
+## Design Overview
 
 The application follows a **stream-based processing pipeline**:
 
@@ -63,22 +63,22 @@ listFiles ? readLines ? filter(regex) ? writeToFile
 
 ### Key Design Decisions
 
-### ? Lazy loading with Streams
+### Lazy loading with Streams
 - Files processed one-by-one
 - Lines processed one-by-one
 - No large Lists stored in memory
 
-### ? Functional style
+### Functional style
 - Java Streams
 - Lambdas
 - Method references
 
-### ? Logging
+### Logging
 - Uses SLF4J instead of System.out for production-ready logs
 
 ---
 
-## ? Pseudocode (process method)
+## Pseudocode (process method)
 
 ```
 process():
@@ -96,7 +96,7 @@ process():
 
 ---
 
-## ? Performance Issue
+## Performance Issue
 
 Loading all file contents into memory using `List<String>` can cause **OutOfMemoryError** when processing large datasets.
 
@@ -110,11 +110,11 @@ As a result, the app can process files much larger than available heap memory (1
 
 ---
 
-# ? Test
+# Test
 
 ## Manual Testing Steps
 
-### 1?? Prepare sample data
+### 1 Prepare sample data
 
 ```bash
 mkdir data
@@ -122,13 +122,13 @@ echo "Romeo loves Juliet" > data/test.txt
 echo "Hello world" >> data/test.txt
 ```
 
-### 2?? Run
+### 2 Run
 
 ```bash
 java -jar target/grep-1.0-SNAPSHOT.jar "Romeo" ./data ./out/result.txt
 ```
 
-### 3?? Verify
+### 3 Verify
 
 ```bash
 cat out/result.txt
@@ -142,7 +142,7 @@ Romeo loves Juliet
 
 ---
 
-# ? Deployment (Docker)
+# Deployment (Docker)
 
 The app is containerized for easy distribution and consistent execution across environments.
 
@@ -174,7 +174,7 @@ Now anyone can run the app without installing Java or Maven.
 
 ---
 
-# ? Tech Stack
+# Tech Stack
 
 - Java 8+
 - Stream & Lambda APIs
@@ -186,7 +186,7 @@ Now anyone can run the app without installing Java or Maven.
 
 ---
 
-# ? Improvements
+# Improvements
 
 1. Add parallel file processing for faster performance
 2. Add CLI flags (ignore case, recursive, count only, etc.)
@@ -194,7 +194,7 @@ Now anyone can run the app without installing Java or Maven.
 
 ---
 
-# ? Key Learning Outcomes
+# Key Learning Outcomes
 
 - Functional programming with Streams
 - Memory-efficient large file processing
