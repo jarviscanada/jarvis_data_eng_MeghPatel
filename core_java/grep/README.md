@@ -12,7 +12,7 @@ Technologies used include Java Streams & Lambdas, SLF4J logging, Maven for build
 
 # Quick Start
 
-## 1 Build the project
+## 1 - Build the project
 
 ```bash
 mvn clean package
@@ -26,7 +26,7 @@ target/grep-1.0-SNAPSHOT.jar
 
 ---
 
-## 2 Run locally
+## 2 - Run locally
 
 ```bash
 java -jar target/grep-1.0-SNAPSHOT.jar "<regex>" "<rootDir>" "<outputFile>"
@@ -40,7 +40,7 @@ java -jar target/grep-1.0-SNAPSHOT.jar ".*Romeo.*Juliet.*" ./data ./out/grep.txt
 
 ---
 
-## 3 Run using Docker
+## 3 - Run using Docker
 
 ```bash
 docker run --rm \
@@ -114,7 +114,7 @@ As a result, the app can process files much larger than available heap memory (1
 
 ## Manual Testing Steps
 
-### 1 Prepare sample data
+### 1 - Prepare sample data
 
 ```bash
 mkdir data
@@ -122,13 +122,13 @@ echo "Romeo loves Juliet" > data/test.txt
 echo "Hello world" >> data/test.txt
 ```
 
-### 2 Run
+### 2 - Run
 
 ```bash
 java -jar target/grep-1.0-SNAPSHOT.jar "Romeo" ./data ./out/result.txt
 ```
 
-### 3 Verify
+### 3 - Verify
 
 ```bash
 cat out/result.txt
