@@ -3,11 +3,16 @@ package ca.jrvs.apps.grep;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class JavaGrepLambdaImp extends JavaGrepImp {
+
+    public JavaGrepLambdaImp() {
+    }
+
+    public JavaGrepLambdaImp(String rootPath, String regex, String outFile) {
+        super(rootPath, regex, outFile);
+    }
 
     /**
      * CLI entry
@@ -36,32 +41,17 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
      * Lambda + Stream version of reading file
      */
     @Override
-    public List<String> readLines(File inputFile) {
-
-        try (Stream<String> lines = Files.lines(inputFile.toPath())) {
-
-            return lines.collect(Collectors.toList());
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+    public Stream<String> readLines(File inputFile) throws IOException {
+        return Files.lines(inputFile.toPath());
     }
 
     /**
      * Lambda + Stream version of listing files recursively
      */
     @Override
-    public List<File> listFiles(String rootDir) {
-
-        try (Stream<java.nio.file.Path> paths = Files.walk(new File(rootDir).toPath())) {
-
-            return paths
-                    .filter(Files::isRegularFile)
-                    .map(java.nio.file.Path::toFile)
-                    .collect(Collectors.toList());
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+    public Stream<File> listFiles(String rootDir) throws IOException {
+        return Files.walk(new File(rootDir).toPath())
+                .filter(Files::isRegularFile)
+                .map(java.nio.file.Path::toFile);
     }
 }

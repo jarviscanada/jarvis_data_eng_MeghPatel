@@ -3,11 +3,15 @@ package ca.jrvs.apps.grep;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.*;
-import java.nio.file.*;
-import java.util.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Iterator;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class JavaGrepImp implements JavaGrep {
 
@@ -36,57 +40,35 @@ public class JavaGrepImp implements JavaGrep {
 
         logger.info("Starting grep process");
 
-        List<File> files = listFiles(rootPath);
-
-        List<String> matchedLines = new ArrayList<>();
-
-        for (File file : files) {
-            List<String> lines = readLines(file);
-
-            for (String line : lines) {
-                if (containsPattern(line)) {
-                    matchedLines.add(line);
-                }
-            }
+        try (Stream<File> files = listFiles(rootPath);
+             Stream<String> matchedLines = files
+                     .flatMap(this::safeReadLines)
+                     .filter(this::containsPattern)) {
+            writeToFile(matchedLines);
         }
-
-        writeToFile(matchedLines);
-
-        logger.info("Process completed. Matched {} lines", matchedLines.size());
     }
 
     /**
      * Recursively list files
      */
     @Override
-    public List<File> listFiles(String rootDir) {
-        try {
-            return Files.walk(Paths.get(rootDir))
-                    .filter(Files::isRegularFile)
-                    .map(Path::toFile)
-                    .collect(Collectors.toList());
-        } catch (IOException e) {
-            logger.error("Error listing files", e);
-            return Collections.emptyList();
-        }
+    public Stream<File> listFiles(String rootDir) throws IOException {
+        return Files.walk(Paths.get(rootDir))
+                .filter(Files::isRegularFile)
+                .map(Path::toFile);
     }
 
     /**
      * Read file lines
      */
     @Override
-    public List<String> readLines(File inputFile) {
+    public Stream<String> readLines(File inputFile) throws IOException {
 
         if (!inputFile.isFile()) {
             throw new IllegalArgumentException("Not a file: " + inputFile);
         }
 
-        try {
-            return Files.readAllLines(inputFile.toPath());
-        } catch (IOException e) {
-            logger.error("Failed reading file {}", inputFile.getName(), e);
-            return Collections.emptyList();
-        }
+        return Files.lines(inputFile.toPath());
     }
 
     /**
@@ -101,9 +83,34 @@ public class JavaGrepImp implements JavaGrep {
      * Write results
      */
     @Override
-    public void writeToFile(List<String> lines) throws IOException {
-        Files.write(Paths.get(outFile), lines);
+    public void writeToFile(Stream<String> lines) throws IOException {
+        Path outputPath = Paths.get(outFile);
+        Path parent = outputPath.getParent();
+        if (parent != null) {
+            Files.createDirectories(parent);
+        }
+
+        long matchedCount = 0L;
+        try (BufferedWriter writer = Files.newBufferedWriter(outputPath)) {
+            Iterator<String> iterator = lines.iterator();
+            while (iterator.hasNext()) {
+                writer.write(iterator.next());
+                writer.newLine();
+                matchedCount++;
+            }
+        }
+
+        logger.info("Process completed. Matched {} lines", matchedCount);
         logger.info("Output written to {}", outFile);
+    }
+
+    protected Stream<String> safeReadLines(File inputFile) {
+        try {
+            return readLines(inputFile);
+        } catch (IOException e) {
+            logger.error("Failed reading file {}", inputFile.getAbsolutePath(), e);
+            return Stream.empty();
+        }
     }
 
     // ===== getters setters =====
