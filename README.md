@@ -16,6 +16,12 @@ Detail-oriented Analyst skilled in SQL, Python, and analytics platforms to build
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MeghPatel](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel)
 
 
+**Retail Data Analytics Pipeline (PySpark & Hadoop)** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/master/spark)]: Developed an end-to-end retail analytics pipeline using PySpark across Databricks and Apache Zeppelin. Ingested data from PostgreSQL and CSV sources, performed ETL transformations, and implemented RFM customer segmentation along with revenue and country-level analysis. Extended the pipeline using Delta Live Tables (DLT) for reliable, incremental data processing and data quality enforcement. Orchestrated workflows using Databricks Jobs and automated deployments with Azure Pipelines. Leveraged Spark SQL, Hive, and distributed storage (DBFS/HDFS) to deliver scalable analytics and business insights.
+
+
+**Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/master/core_java)]: Built a lightweight, memory-efficient file search application in Java that replicates Linux grep functionality. Implemented a stream-based processing pipeline using Java Streams and regex to recursively scan files, filter matching lines, and write results efficiently. Designed for scalability using lazy evaluation, minimizing memory usage while processing large datasets. Containerized the application using Docker and automated builds with Maven.
+
+
 **Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MeghPatel/tree/master/linux_sql)]: Designed and implemented a lightweight monitoring system for a CentOS/Rocky Linux cluster using Bash scripts and crontab to collect hardware specifications and real-time CPU/memory metrics. Stored usage data in PostgreSQL running inside Docker and developed SQL analytics queries for capacity planning and performance reporting. Automated scheduling and deployment to ensure reliable, low-overhead monitoring across environments.
 
 
